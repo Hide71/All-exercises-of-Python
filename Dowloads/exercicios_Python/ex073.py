@@ -1,0 +1,13 @@
+lista = ('corinthians', 'flamengo', 'vasco', 'santos', 'america', 'atletico-MG',
+         'botafogo', 'palmeiras', 'fluminense', 'são paulo', 'chapecoense', 'bahia')
+print('\33[30m-=\33[m'* 30)
+print(f'\33[31mLista dos times do brasileirão: {lista[:]}')
+print('\33[30m-=\33[m'* 30)
+print(f'\33[32mOs 5 primeiros são: {lista[:5]}')
+print('\33[30m-=\33[m'* 30)
+print(f'Os 4 ultimos são:{lista[-4:]}')
+print('\33[30m-=\33[m'* 30)
+print(f'\33[33mTimes em ordem alfabetica:{sorted(lista)}')
+print('\33[30m-=\33[m'* 30)
+print(f'\33[34mA chapecoense esta na {lista.index("chapecoense") + 1}º posição')
+print('\33[37m-=\33[m'* 30)

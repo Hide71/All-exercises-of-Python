@@ -1,0 +1,1 @@
+print('\33[7mOlá mundo!\33[m')
